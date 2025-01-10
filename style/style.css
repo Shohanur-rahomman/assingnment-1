@@ -274,3 +274,63 @@ margin-top: 80px;
     font-weight: 600;
 }
 /* new section end */
+
+/* donate section start */
+.donate-container{
+    text-align: center;
+    margin-top: 80px;
+}
+.donate-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.donate-container p{
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.donate-box{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 24px;
+}
+.donate-box-2{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 24px;
+    background-color: #C6E4D6;
+}
+.box-main-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.donate-input{
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    min-width: 800px;
+}
+.donate-btn{
+    padding: 17px 34px;
+    background-color: #006A50;
+    margin-top: 32px;
+    border-radius: 8px;
+    border: none;
+}
+.donate-btn a{
+    padding: 17px 34px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* donate section end */

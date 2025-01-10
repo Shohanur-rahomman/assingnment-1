@@ -1,11 +1,11 @@
 *{
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;    
 }
 body{
     max-width: 80%;
     margin: 0 auto;
+    background-color: #F1F1F3;
 }
 /* navbar start */
 .nav{
@@ -34,7 +34,7 @@ nav >h2{
 }
 
 .nav-btn :hover{
-    background: #006A50;
+    background-color: #006A50;
 }
 /* navbar end */
 
@@ -69,3 +69,33 @@ nav >h2{
 }
 
 /* Hero section end */
+
+/* Pillars of "Bangladesh 2.0" start */
+.pillars-title{
+    margin-top: 80px;
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.pillar-cart{
+    width: 302px;
+    height: 244px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 18px;
+}
+.pillar-cart-title{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 12px;  
+}
+.pillar-cart p{
+    color: #0E0E0E;
+}
+.pillars-cart-container{
+    display: flex;
+    gap: 24px;
+}
+/* Pillars of "Bangladesh 2.0" end */

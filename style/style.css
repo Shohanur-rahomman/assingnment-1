@@ -267,6 +267,7 @@ nav>h2 {
     background-color: #FFFFFF;
     background-image: url('/assets/quote-bg.png');
     background-repeat: no-repeat;
+    background-position: +28px +28px;
     left: 24px;
     top: 40px;
     padding: 48px 24px;
@@ -331,12 +332,32 @@ nav>h2 {
     color: #0E0E0E;
 }
 
+.btn-new-2{
+    padding: 13px 26px;
+    background-color: #09A15C;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+}
+.btn-new-2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn-new-2:hover{
+    background-color: #047542;
+    transform: scale(1.1);
+}
+
 .news-btn {
     padding: 13px 26px;
     background-color: #006A50;
     border-radius: 8px;
     border: none;
+    
 }
+
 
 .news-btn:hover {
     background-color: #09A15C;

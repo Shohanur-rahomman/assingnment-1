@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    /* font-weight: 100; */
+    font-style: normal;
+  }
 
 body {
     width: 80%;
@@ -62,7 +67,7 @@ nav>h2 {
 }
 
 .hero-title {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .hero-btn {
@@ -371,6 +376,12 @@ nav>h2 {
     font-size: 32px;
     font-weight: bold;
     padding: 24px;
+    cursor: pointer;
+}
+.donate-box:hover{
+    background-color: #aacb17;
+    transform: scale(1.1);
+    color: white;
 }
 
 .donate-box-2 {
@@ -380,6 +391,12 @@ nav>h2 {
     font-weight: bold;
     padding: 24px;
     background-color: #C6E4D6;
+    cursor: pointer;
+}
+.donate-box-2:hover{
+    background-color: #aacb17;
+    transform: scale(1.1);
+    color: white;
 }
 
 .box-main-container {

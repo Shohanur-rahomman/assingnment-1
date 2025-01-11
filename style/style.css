@@ -271,6 +271,7 @@ nav>h2 {
     left: 24px;
     top: 40px;
     padding: 48px 24px;
+    border: 1px solid rgb(208, 207, 207);
     border-radius: 16px;
 }
 
@@ -337,7 +338,7 @@ nav>h2 {
     background-color: #09A15C;
     border-radius: 8px;
     border: none;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .btn-new-2 a{
     text-decoration: none;
@@ -514,10 +515,9 @@ nav>h2 {
 /* subscribe section end */
 /* footer start */
 .footer {
+    max-width: 80%; 
+    margin: 0 auto; 
     text-align: center;
-    background-color: #FFFFFF;
-    padding: 160px 50px;
-    margin-top: 80px;
 
 }
 
@@ -531,8 +531,12 @@ nav>h2 {
     margin-top: 32px;
 }
 
-.footer-main-container {
-    width: 100%;
+.footer-main-container{
+    background-color: #f9f9f5; 
+    margin-top: 80px;
+    padding: 20px 0;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 8px 8px 8px rgb(209, 208, 208);
 }
-
 /* footer end */

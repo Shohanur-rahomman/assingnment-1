@@ -265,8 +265,7 @@ nav>h2 {
 .about-yunus {
     margin-top: 24px;
     background-color: #FFFFFF;
-    background-image: url('../quote-bg.png');
-    /* background-image: url("/assets/quote-bg.png"); to way try but git push then img cannot show */
+    background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: +28px +28px;
     left: 24px;
@@ -538,6 +537,6 @@ nav>h2 {
     padding: 20px 0;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    box-shadow: 8px 8px 8px rgb(209, 208, 208);
+    box-shadow: 7px 8px 8px rgb(209, 208, 208);
 }
 /* footer end */
